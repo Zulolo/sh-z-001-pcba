@@ -1,0 +1,116 @@
+(ExpressProject "stree_light"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "g:\cadence\schematic_lib\core.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\stree_light.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (OFFPAGELEFT-R
+      (LibraryName "D:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "D:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("DIODE SCHOTTKY"
+      (FullPartName "DIODE SCHOTTKY.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("CAP POL"
+      (FullPartName "CAP POL.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (C1X9Gen
+      (FullPartName "C1X9Gen.Normal")
+      (LibraryName "G:\CADENCE\SCHEMATIC_LIB\CORE.OLB")
+      (DeviceIndex "0"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("MOSFET N"
+      (FullPartName "MOSFET N.Normal")
+      (LibraryName "D:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (HF46F
+      (FullPartName "HF46F.Normal")
+      (LibraryName "G:\CADENCE\SCHEMATIC_LIB\CORE.OLB")
+      (DeviceIndex "0"))
+    (AMS1117-33
+      (FullPartName "AMS1117-33.Normal")
+      (LibraryName "G:\CADENCE\SCHEMATIC_LIB\CORE.OLB")
+      (DeviceIndex "0"))
+    (ESP-WROOM-32
+      (FullPartName "ESP-WROOM-32.Normal")
+      (LibraryName "G:\CADENCE\SCHEMATIC_LIB\CORE.OLB")
+      (DeviceIndex "0"))
+    (SIM_card_slot
+      (FullPartName "SIM_card_slot.Normal")
+      (LibraryName "G:\CADENCE\SCHEMATIC_LIB\CORE.OLB")
+      (DeviceIndex "0"))
+    (SMF05C
+      (FullPartName "SMF05C.Normal")
+      (LibraryName "G:\CADENCE\SCHEMATIC_LIB\CORE.OLB")
+      (DeviceIndex "0"))
+    (MP1482
+      (FullPartName "MP1482.Normal")
+      (LibraryName "G:\CADENCE\SCHEMATIC_LIB\CORE.OLB")
+      (DeviceIndex "0"))
+    (SIM800C
+      (FullPartName "SIM800C.Normal")
+      (LibraryName "G:\CADENCE\SCHEMATIC_LIB\CORE.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "Zulolo")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "G:\Work\street_light\PCBA\sch\stree_light.dsn")
+      (Path "Design Resources" "G:\Work\street_light\PCBA\sch\stree_light.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "g:\cadence\schematic_lib\core.olb")
+      (Select "Design Resources"
+         "G:\Work\street_light\PCBA\sch\stree_light.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 638"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1587 52 729")
+        (Scroll "-93 91")
+        (Zoom "134")
+        (Occurrence "/"))
+      (Path "G:\WORK\STREET_LIGHT\PCBA\SCH\STREE_LIGHT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "relay"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1613 78 755")
+        (Scroll "0 938")
+        (Zoom "268")
+        (Occurrence "/"))
+      (Path "G:\WORK\STREET_LIGHT\PCBA\SCH\STREE_LIGHT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "internet"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1639 104 781")
+        (Scroll "-93 0")
+        (Zoom "134")
+        (Occurrence "/"))
+      (Path "G:\WORK\STREET_LIGHT\PCBA\SCH\STREE_LIGHT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "control"))))
